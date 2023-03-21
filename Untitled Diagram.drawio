@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T10:13:42.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="mkn9pv2vgialJrb7s8Dd" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T16:38:54.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="kPrjdWKabB79JoL1SEGL" version="21.0.8" type="github">
   <diagram name="Page-1" id="eLa6vcpmxpIugEdQMYGk">
     <mxGraphModel dx="1617" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,12 +36,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XMKDpLihNk2aly6VVdPa-6" value="Targets" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="70" y="440" width="80" height="80" as="geometry" />
+          <mxGeometry x="3" y="440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XMKDpLihNk2aly6VVdPa-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="XMKDpLihNk2aly6VVdPa-6">
+        <mxCell id="XMKDpLihNk2aly6VVdPa-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="380" as="sourcePoint" />
-            <mxPoint x="130" y="430" as="targetPoint" />
+            <mxPoint x="71.28427124746213" y="451.71572875253787" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XMKDpLihNk2aly6VVdPa-13" value="SNMPv3/SNMPv2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XMKDpLihNk2aly6VVdPa-7">
@@ -49,14 +49,90 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XMKDpLihNk2aly6VVdPa-8" value="Prometheus WEB UI&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XMKDpLihNk2aly6VVdPa-8" value="Prometheus WEB UI&lt;br&gt;(Alive targets, filtres.)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XMKDpLihNk2aly6VVdPa-9" value="Targets" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="450" width="80" height="80" as="geometry" />
+          <mxGeometry x="13" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XMKDpLihNk2aly6VVdPa-10" value="Targets&lt;br&gt;[SNMP Agent]&lt;br&gt;[MIB DB]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="90" y="460" width="80" height="80" as="geometry" />
+          <mxGeometry x="23" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-14" value="usr/local/bin/snmp.yml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-15" value="/etc/prometheus/prometheus.yml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-16" value="SNMP Exporter (Agent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="591" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-17" value="usr/local/bin/snmp.yml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="561" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-18" value="SNMP Exporter (Agent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="58" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-19" value="usr/local/bin/snmp.yml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="28" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-28" value="Targets" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="23" y="721" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-29" value="Targets&lt;br&gt;[SNMP Agent]&lt;br&gt;[MIB DB]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="33" y="731" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="651" as="sourcePoint" />
+            <mxPoint x="81.28427124746213" y="722.7157287525379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-31" value="SNMPv3/SNMPv2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XMKDpLihNk2aly6VVdPa-30">
+          <mxGeometry x="-0.3137" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-32" value="Targets" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="6" y="181" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-33" value="Targets&lt;br&gt;[SNMP Agent]&lt;br&gt;[MIB DB]" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="16" y="191" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.45;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XMKDpLihNk2aly6VVdPa-18" target="XMKDpLihNk2aly6VVdPa-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163" y="166" as="sourcePoint" />
+            <mxPoint x="64.28427124746213" y="237.71572875253787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-35" value="SNMPv3/SNMPv2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XMKDpLihNk2aly6VVdPa-34">
+          <mxGeometry x="-0.3137" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XMKDpLihNk2aly6VVdPa-17" target="XMKDpLihNk2aly6VVdPa-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="435" as="sourcePoint" />
+            <mxPoint x="370" y="435" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-37" value="PULL Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XMKDpLihNk2aly6VVdPa-36">
+          <mxGeometry x="0.475" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XMKDpLihNk2aly6VVdPa-18" target="XMKDpLihNk2aly6VVdPa-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="209" as="sourcePoint" />
+            <mxPoint x="370" y="209" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMKDpLihNk2aly6VVdPa-39" value="PULL Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XMKDpLihNk2aly6VVdPa-38">
+          <mxGeometry x="0.475" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
